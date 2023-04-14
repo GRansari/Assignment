@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features="classpath:Features",
 		glue="candere.project.StepDefs",
-		tags="@SearchProda",
+		tags="@SearchProd1",
 		plugin = {"pretty", // to generate reports
 			       "html:target/html/htmlreport.html",
 			       "json:target/json/file.json",
